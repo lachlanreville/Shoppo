@@ -181,12 +181,12 @@ These next steps reflect a strategic roadmap for the continued development of 'S
 
 ## Roles / Contributions of members
 
-| Member       | Roles/Contributions | 
-| ------------ |:-------------:      | 
-| Adrian       | Initial User Dashboard design, Contribution towards decisions relating to design, Testing post-deployment (looking for bugs, glitches), Documentation (README.md, DEPLOYMENT.md, SCREENSHOTS folder)| 
-| Lachlan      | Team Leader/Project Manager. System Administrator. Deployment on VPS. Setup Database Instance. Created All API Routes Including Add Listing, Edit Listing, Edit User, etc... Made Login/Signup Pages and Functionality, Added Image Functionality on Dashboard and Sell Pages. User Sessions. Styling on Cart, Dashboard, View Listing, Sell.  |  
-| Nicholas     | Wireframes, Mockups, Cart/Sell/Edit Profile pages, NavBar, SideBar, Listings/Purchases/Sales Views, User Info Box on View Listing Page, Error Popup Component  |  
-| Reyzhel      | Created Individual Listings Page and Initial Styling. Overall Design for Navigation System, Login/Signup Styling (Background), Home Page Styling, Added all Products, Edited Database Information such as Usernames, Emails, Passwords, Products. Final Sidebar Styling on Home. Created the Logo and added on Pages.  |  
+| Member       |                                                                                                                                                  Roles/Contributions                                                                                                                                                  | 
+| ------------ |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| 
+| Adrian       |                                                         Initial User Dashboard design, Contribution towards decisions relating to design, Testing post-deployment (looking for bugs, glitches), Documentation (README.md, DEPLOYMENT.md, SCREENSHOTS folder)                                                          | 
+| Lachlan      |                               Team Leader/Project Manager. System Administrator. Database Manager. Created API Routes, Made Login/Signup Pages and Functionality, Added Image Functionality on Dashboard and Sell Pages. User Sessions. Styling on Cart, Dashboard, View Listing, Sell.                               |  
+| Nicholas     |                                                                             Wireframes, Mockups, Cart/Sell/Edit Profile pages, NavBar, SideBar, Listings/Purchases/Sales Views, User Info Box on View Listing Page, Error Popup Component                                                                             |  
+| Reyzhel      | Created Individual Listings Page and Initial Styling. Overall Design for Navigation System, Login/Signup Styling (Background), Home Page Styling, Added all Products, Edited Database Information such as Usernames, Emails, Passwords, Products. Final Sidebar Styling on Home. Created the Logo and added on Pages. |  
 
 ### Interaction/Communication
 
