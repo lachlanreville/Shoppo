@@ -1,0 +1,40 @@
+.productImage {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-left: 10px;
+  }
+  
+  .linkDecoration {
+    text-decoration: none;
+  }
+  
+  .productTitle {
+    color: black;
+  }
+  
+  .productPrice {
+    color: black;
+  }
+  
+  .ProductList {
+    list-style-type: none;
+    padding: 0;
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  
+  .ProductList li {
+    display: inline-block;
+    margin: 5px auto;
+  }
+
+  .Product {
+    background-color: rgb(226, 226, 226);
+    border-style: solid;
+    border-radius: 10px;
+    padding: 20px;
+  }

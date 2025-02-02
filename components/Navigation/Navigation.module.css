@@ -1,0 +1,110 @@
+.shoppo {
+  width: 300px;
+  height: auto;
+  margin-right: 20px;
+  padding-left: 15px;
+}
+
+.navBar {
+  background-color: #ffffff;
+  background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23c5c2cb' fill-opacity='0.31' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+  color: #333;
+  width: 100%;
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navBar ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.navBar li {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.navList {
+  display: inline-flex;
+  flex-direction: row;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.logo {
+  margin-right: auto;
+}
+
+.sell,
+.cart,
+.dashboard {
+  margin-right: auto;
+}
+
+.sellIcon {
+  color: #6c22ff;
+  width: 30px;
+  height: 30px;
+  padding-right: 15px;
+}
+
+.dashboard {
+  margin-left: 0;
+  margin-right: 20px;
+}
+
+.linkDecoration {
+  text-decoration: none;
+  color: black;
+}
+
+.cart {
+  margin-right: 15px;
+}
+
+.cartIcon {
+  color: #333;
+  ;
+  width: 30px;
+  height: 30px;
+}
+
+.dashboardIcon {
+  color: #333;
+  width: 30px;
+  height: 30px;
+  padding-right: 20px;
+}
+
+@media (max-width: 768px) {
+  .navBar {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  .navList {
+    margin-top: 10px;
+    justify-content: center;
+  }
+
+  .navBar li {
+    margin: 5px 0;
+  }
+
+  .logo,
+  .sell,
+  .cart,
+  .dashboard {
+    margin: 5px 0;
+  }
+
+  .sellIcon,
+  .cartIcon,
+  .dashboardIcon {
+    padding: 0;
+  }
+}

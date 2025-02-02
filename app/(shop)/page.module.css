@@ -1,0 +1,225 @@
+.navBar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.navBar li {
+  float: left;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.navBar {
+  border-bottom: 1px solid #B3B3B3;
+  width: 100%;
+  height: 80px;
+}
+
+.navList {
+  display: inline-flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+  justify-content: space-around;
+}
+
+.logo {
+  margin-right: 0;
+  margin-left: 40px;
+}
+
+.search {
+  margin: auto;
+  margin-left: 30px;
+}
+
+.test {
+  margin-left: 30px;
+}
+
+.sell {
+  margin-right: 15px;
+}
+
+.dashboard {
+  margin-left: 0;
+  margin-right: 20px;
+}
+
+.sellText {
+  text-decoration: none;
+  color: black;
+}
+
+.sideNavContainer {
+  padding-top: 50px;
+  padding-left: 35px;
+}
+
+.sideNav {
+  top: 200px;
+  position: sticky;
+  top: 80px; 
+  height: fit-content;
+  overflow-y: auto; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  padding: 20px;
+  border-radius: 10px; 
+  background-color: #c5c5c3;
+}
+
+.sideNav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sideNav button {
+  font-size: 18px;
+  border: none;
+  background-color: #ffffff;
+  color: #333;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.sideNav button img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.buttonContainer {
+  margin: 10px 0;
+}
+
+.checkboxContainer label {
+  font-size: 18px;
+}
+
+.sideNav button:hover {
+  background-color: #eaeaea;
+  color: #555;
+  cursor: pointer;
+}
+
+.headerWrapper {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.headerWrapper button {
+  width: 100px;
+  height: 40px;
+  align-self: center;
+  border: none
+}
+
+.headerWrapper button:hover {
+  cursor: pointer
+}
+
+.container input {
+  opacity: 0;
+}
+
+.container input:checked~.checkmark:after {
+  display: block;
+}
+
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  padding-top: 3px;
+}
+
+.pricerangeContainer {
+  margin-left: 30px;
+}
+
+.checkboxContainer label {
+  font-size: 18px;
+}
+
+.contentWrapper {
+  background-color: #EEEEEE;
+  display: flex;
+  width: 100%;
+}
+
+.contactInfo {
+  margin-top: 40px;
+}
+
+.contactInfo h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.contactInfo p {
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #555;
+}
+
+.homeContent {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 900px;
+  height: auto;
+}
+
+.productImage {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.bannerImage {
+  width: 900px;
+  height: 350px;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.manIcon, .womanIcon, .electronicsIcon, .homegoodsIcon {
+  color: #333;
+  margin-right: 8px;
+}
+
+@media (max-width: 768px) {
+  .contentWrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sideNav {
+    width: 100%; 
+  }
+
+  .homeContent {
+    width: 100%; 
+    margin: 20px 0; 
+  }
+}
+
+@media (max-width: 480px) {
+  .bannerImage {
+    width: 100%;
+    height: auto;
+    border-radius: 0; 
+  }
+}

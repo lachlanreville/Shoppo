@@ -1,0 +1,230 @@
+.UserDashboard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+
+.UserInfo {
+  display: inline-flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+  justify-content: space-around;
+}
+
+.ImageList {
+  width: 80%;
+  margin: 50px auto;
+  display: block;
+}
+
+.EditProfileBtn {
+  position: absolute;
+  right: 10px;
+  background-color: #dddcdc;
+  border-radius: 12px;
+  font-size: 20px;
+  margin: 20px;
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.EditProfileBtn:hover {
+  cursor: pointer;
+}
+
+.ManageListingsBtn {
+  background-color: #dddcdc;
+  border: 0px none;
+  border-radius: 12px;
+  font-size: 20px;
+  font-weight: 600;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.UserOverview {
+  width: 80%;
+  height: 225;
+  background-color: #dddcdc;
+  border-radius: 15px;
+  margin: 60px auto;
+  position: relative;
+}
+
+.UserOverview h1 {
+  position: absolute;
+  top: 20px;
+  left: 221px;
+  font-size: 42px;
+}
+
+.ButtonContainer {
+  margin: auto;
+  width: 80%;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.ViewButtons {
+  background-color: #6c2dff;
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  border-radius: 10px;
+  margin-right: 15px;
+  width: 250px;
+}
+
+.ViewButtons:hover {
+  background-color: #5a13ff;
+
+}
+
+.UserPic {
+  width: 120px;
+  height: 120px;
+  margin: 35px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 90px;
+}
+
+.EditProfileForm {
+  position: absolute;
+  top: 20px;
+  left: 221px;
+  font-size: 20px;
+}
+
+
+.FormInputs {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.FormInputs input {
+  width: 250px;
+  border: 1px solid black;
+  padding: 10px;
+  margin-left: 0px;
+  margin-right: 10px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.EditProfileForm button {
+  background-color: #6c2dff;
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 15px 32px;
+  font-size: 16px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  border-radius: 10px;
+  width: 250px;
+  margin-top: 15px;
+}
+
+
+
+.hiddenUploadDiv {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  text-align: center;
+  position: absolute;
+}
+
+.PurchaseList {
+  width: 80%;
+  margin: 50px auto;
+  display: block;
+}
+
+.SalesList {
+  width: 80%;
+  margin: 50px auto;
+  display: block;
+}
+
+
+
+@media screen and (max-width: 1350px) {
+  .FormInputs input {
+    width: 180px;
+    border: 1px solid black;
+    padding: 10px;
+    margin-left: 0px;
+    margin-right: 10px;
+    height: 30px;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .FormInputs input {
+    width: 150px;
+    border: 1px solid black;
+    padding: 10px;
+    margin-left: 0px;
+    margin-right: 10px;
+    height: 30px;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .FormInputs input {
+    width: 80%;
+    border: 1px solid black;
+    padding: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 30px;
+    border-radius: 10px;
+  }
+
+  .FormInputs {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .EditProfileForm {
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-self: center;
+    align-self: center;
+    top: 200px;
+    font-size: 20px;
+    left: 0px;
+    width: calc(100% - 20px);
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 400px;
+  }
+
+  .EditProfileForm button {
+    width: 80%;
+    align-self: center;
+  }
+
+  .UserOverview {
+    height: 550px;
+  }
+
+}

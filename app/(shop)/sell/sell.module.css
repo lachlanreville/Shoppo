@@ -1,0 +1,186 @@
+.uploadImage {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 10px;
+    display: flex;
+    text-align: center;
+    position: relative;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.uploadImage:hover {
+    cursor: pointer;
+}
+
+.iconContainer {
+    height: 20px;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.pageHeaderContainer {
+    margin: 12.5px auto;
+    width: 700px;
+    border-bottom: 1px solid black;
+    margin-bottom: 45px;
+}
+
+.photoHeader {
+    margin: 12.5px auto;
+    width: 700px;
+}
+
+.uploadIcon {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 0px auto;
+}
+
+.uploadText {
+    margin: auto;
+    margin-top: 0px;
+    width: 100%;
+    height: 20px;
+}
+
+.uploadContainer {
+    display: inline-flex;
+    flex-direction: row;
+    width: 700px;
+    height: auto;
+    flex-wrap: wrap;
+    margin: auto 0;
+    z-index: 5;
+}
+
+.overlayImage {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(128, 128, 128, 0.8);
+    z-index: 10;
+    display: flex
+}
+
+.overlayImage p {
+    font-size: 54px;
+    color: white;
+    z-index: 11;
+    margin: auto;
+}
+
+.placeholderImage:hover .overlayImage {
+    opacity: 0.8;
+}
+
+.placeholderImage:hover p {
+    z-index: 11;
+    color: white;
+}
+
+.hiddenUploadDiv {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    text-align: center;
+    position: absolute;
+}
+
+.placeholderImage {
+    width: 202px;
+    height: 202px;
+    background-color: grey;
+    margin: 10px;
+    position: relative;
+}
+
+.listingForm label {
+    display: block;
+    font-size: 20px;
+}
+
+.listingForm {
+    margin-left: 50px;
+}
+
+.listingForm input {
+    width: 250px;
+    border: 1px solid black;
+    padding: 5px;
+    margin-left: 0px;
+    margin-right: 10px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.listingForm textarea {
+    width: 400px;
+    resize: none;
+    border: 1px solid black;
+    padding: 5px;
+    margin-left: 0px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.listingForm div {
+    margin-bottom: 20px;
+}
+
+.listingForm button {
+    background-color: #6c2dff;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 15px 32px;
+    font-size: 16px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border-radius: 10px;
+    width: 250px;
+    margin-top: 5px;
+}
+
+.listingForm select {
+    width: 250px;
+    border: 1px solid black;
+    padding: 5px;
+    margin-left: 0px;
+    margin-right: 10px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.master {
+    display: flex;
+    flex-direction: column;
+}
+
+.formContainer {
+    margin: auto;
+}
+
+@media screen and (min-width: 1300px) {
+    .formContainer {
+        display: inline-flex;
+        margin: auto;
+    }
+
+    .pageHeaderContainer {
+        margin-left: 12.5px auto;
+        width: 1150px;
+        border-bottom: 1px solid black;
+        margin-bottom: 45px;
+    }
+
+    .photoHeader {
+        width: 1150px;
+    }
+}

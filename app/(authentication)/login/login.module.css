@@ -1,0 +1,121 @@
+.header {
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23c5c2cb' fill-opacity='0.31' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+    color: #333;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.loginLogo {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 300px;
+    height: auto;
+}
+
+.pageWrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.bottomSection {
+    height: 120px;
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23c5c2cb' fill-opacity='0.31' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.formWrapper {
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.formHeader {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 40px 0px;
+}
+
+.formLabel {
+    width: 100px;
+    text-align: left;
+    position: absolute;
+}
+
+.formInputs {
+    width: 75%;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 20px 0px;
+    padding-left: 30px;
+}
+
+.loginButton {
+    width: 80%;
+    border: 0px;
+    padding: 10px;
+    margin: 5px 0px;
+    background-color: #5f1ce6;
+    color: #fff;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.loginButton:hover {
+    cursor: pointer;
+    background-color: #a987ef;
+}
+
+.base {
+    background-color: #D9D9D9;
+    background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 20.5V18H0v-2h20v-2H0v-2h20v-2H0V8h20V6H0V4h20V2H0V0h22v20h2V0h2v20h2V0h2v20h2V0h2v20h2V0h2v20h2v2H20v-1.5zM0 20h2v20H0V20zm4 0h2v20H4V20zm4 0h2v20H8V20zm4 0h2v20h-2V20zm4 0h2v20h-2V20zm4 4h20v2H20v-2zm0 4h20v2H20v-2zm0 4h20v2H20v-2zm0 4h20v2H20v-2z' fill='%23c5c2cb' fill-opacity='0.31' fill-rule='evenodd'/%3E%3C/svg%3E");
+    display: flex;
+    margin: auto 0px;
+    height: 100%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    height: 65%;
+    justify-content: space-between;
+}
+
+.icons {
+    position: absolute;
+    bottom: 23px;
+    left: 35px;
+}
+
+.inputContainer {
+    position: relative;
+}
+
+.noAccount {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 0px;
+    margin-top: 10px
+}
+
+.showPassword {
+    position: absolute;
+    opacity: 0.4;
+    right: 40px;
+    bottom: 22.5px;
+}
+
+.showPassword:hover {
+    cursor: pointer;
+}

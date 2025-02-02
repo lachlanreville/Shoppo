@@ -1,0 +1,39 @@
+.errorPopup {
+    z-index: 11;
+    width: 300px;
+    height: 150px;
+    border-radius: 20px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 25px;
+    background-color: #a987ef;
+    color: black;
+    box-shadow: 5px 5px 5px rgb(103, 103, 103);
+}
+
+.validPopup {
+    z-index: 11;
+    width: 300px;
+    height: 150px;
+    border-radius: 20px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 25px;
+    background-color: #a987ef;
+    color: black;
+    box-shadow: 5px 5px 5px rgb(103, 103, 103);
+}
+
+.validPopup h2,
+.errorPopup h2 {
+    text-align: center;
+    color: black;
+}
+
+.validPopup p,
+.errorPopup p {
+    color: black;
+    margin-left: 20px;
+}

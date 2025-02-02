@@ -1,0 +1,30 @@
+.productDetailContainer {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .successMessage {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .orderNumber {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .orderLink {
+    color: #5f1ce6;
+    text-decoration: none;
+  }
+  
+  .orderLink:hover {
+    text-decoration: none;
+  }
+  
+  .noPurchases {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 24px;
+    color: #555;
+  }

@@ -1,5 +1,9 @@
 # SHOPPO 
 
+## Live Demo
+
+Shoppo is currently hosted on https://shoppo.lachlanreville.com.au/ using Vercel.
+
 ## Outline
 
 SHOPPO is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). The main purpose of ‘Shoppo’ is to create an online marketplace platform where users can list items for sale and purchase items from other users, much like the popular ‘Depop’ application. It serves as a virtual marketplace for various products, including fashion, vintage, handmade
@@ -71,7 +75,7 @@ In our MVP (Minimum Viable Product) for the 'Shoppo' web application, we have su
 2. **Login System:**
    - Users can log in with their credentials.
    - Incorrect password input triggers error messages.
-   - Option to hide/unhide the password while typing for security.
+   - Option to hide and make the password visible while typing for security.
 
 3. **Products Page/Home Page:**
    - Users can view a list of the products for sale.
@@ -80,7 +84,7 @@ In our MVP (Minimum Viable Product) for the 'Shoppo' web application, we have su
    - Implemented a filter system for the home page to help users find products easily.
 
 5. **Product Listing Pages:**
-   - Users can browse product listings, with product details such as price, condition, who listed it, iamges of the item, and a description of the item.
+   - Users can browse product listings, with product details such as price, condition, who listed it, images of the item, and a description of the item.
 
 6. **Add to Cart:**
    -  Added a pop-up notification when a product is successfully added to the cart.
@@ -181,15 +185,15 @@ These next steps reflect a strategic roadmap for the continued development of 'S
 
 ## Roles / Contributions of members
 
-| Member       |                                                                                                                                                  Roles/Contributions                                                                                                                                                  | 
-| ------------ |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| 
-| Adrian       |                                                         Initial User Dashboard design, Contribution towards decisions relating to design, Testing post-deployment (looking for bugs, glitches), Documentation (README.md, DEPLOYMENT.md, SCREENSHOTS folder)                                                          | 
-| Lachlan      |                               Team Leader/Project Manager. System Administrator. Database Manager. Created API Routes, Made Login/Signup Pages and Functionality, Added Image Functionality on Dashboard and Sell Pages. User Sessions. Styling on Cart, Dashboard, View Listing, Sell.                               |  
-| Nicholas     |                                                                             Wireframes, Mockups, Cart/Sell/Edit Profile pages, NavBar, SideBar, Listings/Purchases/Sales Views, User Info Box on View Listing Page, Error Popup Component                                                                             |  
-| Reyzhel      | Created Individual Listings Page and Initial Styling. Overall Design for Navigation System, Login/Signup Styling (Background), Home Page Styling, Added all Products, Edited Database Information such as Usernames, Emails, Passwords, Products. Final Sidebar Styling on Home. Created the Logo and added on Pages. |  
+| Member   |                                                                                                                                                  Roles/Contributions                                                                                                                                                  | 
+|----------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| 
+| Adrian   |                                                         Initial User Dashboard design, Contribution towards decisions relating to design, Testing post-deployment (looking for bugs, glitches), Documentation (README.md, DEPLOYMENT.md, SCREENSHOTS folder)                                                          | 
+| Lachlan  |                               Team Leader/Project Manager. System Administrator. Database Manager. Created API Routes, Made Login/Signup Pages and Functionality, Added Image Functionality on Dashboard and Sell Pages. User Sessions. Styling on Cart, Dashboard, View Listing, Sell.                               |  
+| Nicholas |                                                                             Wireframes, Mockups, Cart/Sell/Edit Profile pages, NavBar, SideBar, Listings/Purchases/Sales Views, User Info Box on View Listing Page, Error Popup Component                                                                             |  
+| Reyzhel  | Created Individual Listings Page and Initial Styling. Overall Design for Navigation System, Login/Signup Styling (Background), Home Page Styling, Added all Products, Edited Database Information such as Usernames, Emails, Passwords, Products. Final Sidebar Styling on Home. Created the Logo and added on Pages. |  
 
 ### Interaction/Communication
 
-The team primarily utilised the platform 'Discord' for most, if not all collaboration and interactions. It was our first choice for communcation due to its seamless capabilities to message, and voice/video call members, as well as each member having the software prior to the decisions of which platform to use. 
+The team primarily utilised the platform 'Discord' for most, if not all collaboration and interactions. It was our first choice for communication due to its seamless capabilities to message, and voice/video call members, as well as each member having the software prior to the decisions of which platform to use. 
 
-The team also made use of the Github Project board to manage our tasks, as well as Git for collaborating during development stages. 
+The team also made use of the GitHub Project board to manage our tasks, as well as Git for collaborating during development stages. 

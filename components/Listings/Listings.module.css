@@ -1,0 +1,36 @@
+.productImage {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.linkDecoration {
+  text-decoration: none;
+}
+
+.productTitle {
+  color: black;
+}
+
+.productPrice {
+  color: black;
+}
+
+.delete:hover {
+  cursor: pointer;
+}
+
+.ProductList {
+  list-style-type: none;
+  padding: 0;
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.ProductList li {
+  display: inline-block;
+  margin: 5px auto;
+}
